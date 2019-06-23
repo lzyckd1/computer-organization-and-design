@@ -1,0 +1,33 @@
+xst -intstyle ise -ifn "F:/verilog/P1_kexia_1/spilitter.xst" -ofn "F:/verilog/P1_kexia_1/spilitter.syr" 
+xst -intstyle ise -ifn "F:/verilog/P1_kexia_1/spilitter.xst" -ofn "F:/verilog/P1_kexia_1/spilitter.syr" 
+xst -intstyle ise -ifn "F:/verilog/P1_kexia_1/spilitter.xst" -ofn "F:/verilog/P1_kexia_1/spilitter.syr" 
+xst -intstyle ise -ifn "F:/verilog/P1_kexia_1/spilitter.xst" -ofn "F:/verilog/P1_kexia_1/spilitter.syr" 
+xst -intstyle ise -ifn "F:/verilog/P1_kexia_1/spilitter.xst" -ofn "F:/verilog/P1_kexia_1/spilitter.syr" 
+xst -intstyle ise -ifn "F:/verilog/P1_kexia_1/spilitter.xst" -ofn "F:/verilog/P1_kexia_1/spilitter.syr" 
+xst -intstyle ise -ifn "F:/verilog/P1_kexia_1/spilitter.xst" -ofn "F:/verilog/P1_kexia_1/spilitter.syr" 
+xst -intstyle ise -ifn "F:/verilog/P1_kexia_1/spilitter.xst" -ofn "F:/verilog/P1_kexia_1/spilitter.syr" 
+xst -intstyle ise -ifn "F:/verilog/P1_kexia_1/spilitter.xst" -ofn "F:/verilog/P1_kexia_1/spilitter.syr" 
+xst -intstyle ise -ifn "F:/verilog/P1_kexia_1/spilitter.xst" -ofn "F:/verilog/P1_kexia_1/spilitter.syr" 
+xst -intstyle ise -ifn "F:/verilog/P1_kexia_1/spilitter.xst" -ofn "F:/verilog/P1_kexia_1/spilitter.syr" 
+xst -intstyle ise -ifn "F:/verilog/P1_kexia_1/spilitter.xst" -ofn "F:/verilog/P1_kexia_1/spilitter.syr" 
+xst -intstyle ise -ifn "F:/verilog/P1_kexia_1/spilitter.xst" -ofn "F:/verilog/P1_kexia_1/spilitter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 spilitter.ngc spilitter.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o spilitter_map.ncd spilitter.ngd spilitter.pcf 
+xst -intstyle ise -ifn "F:/verilog/P1_kexia_1/spilitter.xst" -ofn "F:/verilog/P1_kexia_1/spilitter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 spilitter.ngc spilitter.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o spilitter_map.ncd spilitter.ngd spilitter.pcf 
+xst -intstyle ise -ifn "F:/verilog/P1_kexia_1/spilitter.xst" -ofn "F:/verilog/P1_kexia_1/spilitter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 spilitter.ngc spilitter.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o spilitter_map.ncd spilitter.ngd spilitter.pcf 
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o spilitter_map.ncd spilitter.ngd spilitter.pcf 
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o spilitter_map.ncd spilitter.ngd spilitter.pcf 
+xst -intstyle ise -ifn "F:/verilog/P1_kexia_1/spilitter.xst" -ofn "F:/verilog/P1_kexia_1/spilitter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 spilitter.ngc spilitter.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o spilitter_map.ncd spilitter.ngd spilitter.pcf 
+xst -intstyle ise -ifn "F:/verilog/P1_kexia_1/spilitter.xst" -ofn "F:/verilog/P1_kexia_1/spilitter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 spilitter.ngc spilitter.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o spilitter_map.ncd spilitter.ngd spilitter.pcf 
+xst -intstyle ise -ifn "F:/verilog/P1_kexia_1/spilitter.xst" -ofn "F:/verilog/P1_kexia_1/spilitter.syr" 
+xst -intstyle ise -ifn "F:/verilog/P1_kexia_1/spilitter.xst" -ofn "F:/verilog/P1_kexia_1/spilitter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 spilitter.ngc spilitter.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o spilitter_map.ncd spilitter.ngd spilitter.pcf 

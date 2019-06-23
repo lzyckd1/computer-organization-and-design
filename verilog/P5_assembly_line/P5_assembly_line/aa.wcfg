@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="F:/verilog/P5_assembly_line/test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="/test/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/rE/ins" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ins[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ins[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/rE/IR_E" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">IR_E[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IR_E[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/rE/IR" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">IR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/rE/r_t" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">r_t</obj_property>
+      <obj_property name="ObjectShortName">r_t</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/rE/r_t_E" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">r_t_E</obj_property>
+      <obj_property name="ObjectShortName">r_t_E</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/rE/grf_we" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">grf_we</obj_property>
+      <obj_property name="ObjectShortName">grf_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/rE/grf_we" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">grf_we</obj_property>
+      <obj_property name="ObjectShortName">grf_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/rE/we" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">we</obj_property>
+      <obj_property name="ObjectShortName">we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/rE/grf_we_E" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">grf_we_E</obj_property>
+      <obj_property name="ObjectShortName">grf_we_E</obj_property>
+   </wvobject>
+</wave_config>

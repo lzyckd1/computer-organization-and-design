@@ -1,0 +1,8 @@
+[Inputs]
+=address[9:0]=
+[Outputs]
+=out[31:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel IM
+

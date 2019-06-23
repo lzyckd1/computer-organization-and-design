@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "F:/verilog/P5_new/mips.xst" -ofn "F:/verilog/P5_new/mips.syr" 

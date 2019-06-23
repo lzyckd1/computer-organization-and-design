@@ -1,0 +1,22 @@
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/grf.xst" -ofn "F:/verilog/P4_CPU_Single/grf.syr" 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/grf.xst" -ofn "F:/verilog/P4_CPU_Single/grf.syr" 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/grf.xst" -ofn "F:/verilog/P4_CPU_Single/grf.syr" 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/grf.xst" -ofn "F:/verilog/P4_CPU_Single/grf.syr" 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/grf.xst" -ofn "F:/verilog/P4_CPU_Single/grf.syr" 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/grf.xst" -ofn "F:/verilog/P4_CPU_Single/grf.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 grf.ngc grf.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o grf_map.ncd grf.ngd grf.pcf 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/grf.xst" -ofn "F:/verilog/P4_CPU_Single/grf.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 grf.ngc grf.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o grf_map.ncd grf.ngd grf.pcf 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/grf.xst" -ofn "F:/verilog/P4_CPU_Single/grf.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -bm DM.bmm -p xc6slx150-fgg676-2 grf.ngc grf.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o grf_map.ncd grf.ngd grf.pcf 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/grf.xst" -ofn "F:/verilog/P4_CPU_Single/grf.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -bm DM.bmm -p xc6slx150-fgg676-2 grf.ngc grf.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o grf_map.ncd grf.ngd grf.pcf 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/grf.xst" -ofn "F:/verilog/P4_CPU_Single/grf.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -bm DM.bmm -p xc6slx150-fgg676-2 grf.ngc grf.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o grf_map.ncd grf.ngd grf.pcf 
+vhdtdtfi -lib work F:/verilog/P4_CPU_Single/grf.v -lang verilog -prj P4_CPU_Single -o grf.spl -module grf -template D:/xlinux/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 grf.spl F:/verilog/P4_CPU_Single/grf.sym 

@@ -1,0 +1,12 @@
+[Inputs]
+write
+clk
+clr
+=address[9:0]=
+=in[31:0]=
+[Outputs]
+=out[31:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel DM
+

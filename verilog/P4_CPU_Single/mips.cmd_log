@@ -1,0 +1,189 @@
+vhdtdtfi -lib work F:/verilog/P4_CPU_Single/mips.v -lang verilog -prj P4_CPU_Single -o mips.spl -module mips -template D:/xlinux/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 mips.spl F:/verilog/P4_CPU_Single/mips.sym 
+vhdtdtfi -lang verilog -prj P4_CPU_Single -o F:/verilog/P4_CPU_Single/mips.tfi -lib work F:/verilog/P4_CPU_Single//mips.v -module mips -template D:/xlinux/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj P4_CPU_Single -o F:/verilog/P4_CPU_Single/mips.tfi -lib work F:/verilog/P4_CPU_Single//mips.v -module mips -template D:/xlinux/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj P4_CPU_Single -o F:/verilog/P4_CPU_Single/mips.tfi -lib work F:/verilog/P4_CPU_Single//mips.v -module mips -template D:/xlinux/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim mips.ngc mips_synthesis.v 
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim mips.ngc mips_synthesis.v 
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 
+xst -intstyle ise -ifn "F:/verilog/P4_CPU_Single/mips.xst" -ofn "F:/verilog/P4_CPU_Single/mips.syr" 

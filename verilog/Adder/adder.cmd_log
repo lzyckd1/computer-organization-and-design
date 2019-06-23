@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "F:/verilog/Adder/adder.xst" -ofn "F:/verilog/Adder/adder.syr" 
+xst -intstyle ise -ifn "F:/verilog/Adder/adder.xst" -ofn "F:/verilog/Adder/adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 adder.ngc adder.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o adder_map.ncd adder.ngd adder.pcf 
+xst -intstyle ise -ifn "F:/verilog/Adder/adder.xst" -ofn "F:/verilog/Adder/adder.syr" 
+xst -intstyle ise -ifn "F:/verilog/Adder/adder.xst" -ofn "F:/verilog/Adder/adder.syr" 
+xst -intstyle ise -ifn "F:/verilog/Adder/adder.xst" -ofn "F:/verilog/Adder/adder.syr" 
+xst -intstyle ise -ifn "F:/verilog/Adder/adder.xst" -ofn "F:/verilog/Adder/adder.syr" 
+xst -intstyle ise -ifn "F:/verilog/Adder/adder.xst" -ofn "F:/verilog/Adder/adder.syr" 
+xst -intstyle ise -ifn "F:/verilog/Adder/adder.xst" -ofn "F:/verilog/Adder/adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 adder.ngc adder.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o adder_map.ncd adder.ngd adder.pcf 

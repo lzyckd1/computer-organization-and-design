@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "F:/verilog/asdad/pipeline.xst" -ofn "F:/verilog/asdad/pipeline.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 pipeline.ngc pipeline.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pipeline_map.ncd pipeline.ngd pipeline.pcf 

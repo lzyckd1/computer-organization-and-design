@@ -1,0 +1,154 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Reading design: mips.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "mips.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "mips"
+Output Format                      : NGC
+Target Device                      : xc6slx150-2-fgg676
+
+---- Source Options
+Top Module Name                    : mips
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "F:\verilog\P5_new\REG_IF_ID.v" into library work
+Parsing module <REG_IF_ID>.
+Analyzing Verilog file "F:\verilog\P5_new\PC.v" into library work
+Parsing module <PC>.
+Analyzing Verilog file "F:\verilog\P5_new\IM.v" into library work
+Parsing module <IM>.
+Analyzing Verilog file "F:\verilog\P5_new\ADD4.v" into library work
+Parsing module <ADD4>.
+Analyzing Verilog file "F:\verilog\P5_new\mips.v" into library work
+Parsing module <mips>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <mips>.
+
+Elaborating module <PC>.
+ERROR:HDLCompiler:1511 - "F:\verilog\P5_new\PC.v" Line 28: Mix of blocking and non-blocking assignments to variable <pc> is not a recommended coding practice.
+INFO - You can change the severity of this error message to warning using switch -change_error_to_warning "HDLCompiler:1511"
+Module PC remains a blackbox, due to errors in its contents
+WARNING:HDLCompiler:1499 - "F:\verilog\P5_new\PC.v" Line 21: Empty module <PC> remains a black box.
+
+Elaborating module <IM>.
+ERROR:HDLCompiler:990 - "F:\verilog\P5_new\IM.v" Line 32: Cannot open file code.txt
+Module IM remains a blackbox, due to errors in its contents
+WARNING:HDLCompiler:1499 - "F:\verilog\P5_new\IM.v" Line 21: Empty module <IM> remains a black box.
+WARNING:HDLCompiler:604 - "F:\verilog\P5_new\mips.v" Line 30: Module instantiation should have an instance name
+
+Elaborating module <REG_IF_ID>.
+ERROR:HDLCompiler:1511 - "F:\verilog\P5_new\REG_IF_ID.v" Line 29: Mix of blocking and non-blocking assignments to variable <a> is not a recommended coding practice.
+INFO - You can change the severity of this error message to warning using switch -change_error_to_warning "HDLCompiler:1511"
+Module REG_IF_ID remains a blackbox, due to errors in its contents
+WARNING:HDLCompiler:1499 - "F:\verilog\P5_new\REG_IF_ID.v" Line 21: Empty module <REG_IF_ID> remains a black box.
+WARNING:HDLCompiler:1127 - "F:\verilog\P5_new\mips.v" Line 30: Assignment to pc_ID ignored, since the identifier is never used
+
+Elaborating module <ADD4>.
+WARNING:HDLCompiler:1127 - "F:\verilog\P5_new\mips.v" Line 31: Assignment to pc_a4 ignored, since the identifier is never used
+WARNING:HDLCompiler:634 - "F:\verilog\P5_new\mips.v" Line 27: Net <pc_in[31]> does not have a driver.
+--> 
+
+Total memory usage is 230212 kilobytes
+
+Number of errors   :    3 (   0 filtered)
+Number of warnings :    7 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

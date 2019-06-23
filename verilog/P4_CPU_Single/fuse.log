@@ -1,0 +1,33 @@
+Running: D:\xlinux\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o F:/verilog/P4_CPU_Single/a_isim_beh.exe -prj F:/verilog/P4_CPU_Single/a_beh.prj work.a work.glbl 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "F:/verilog/P4_CPU_Single/PC_change.v" into library work
+Analyzing Verilog file "F:/verilog/P4_CPU_Single/IM.v" into library work
+Analyzing Verilog file "F:/verilog/P4_CPU_Single/grf.v" into library work
+Analyzing Verilog file "F:/verilog/P4_CPU_Single/DM.v" into library work
+Analyzing Verilog file "F:/verilog/P4_CPU_Single/Controller.v" into library work
+Analyzing Verilog file "F:/verilog/P4_CPU_Single/ALU.v" into library work
+Analyzing Verilog file "F:/verilog/P4_CPU_Single/mips.v" into library work
+Analyzing Verilog file "F:/verilog/P4_CPU_Single/a.v" into library work
+Analyzing Verilog file "D:/xlinux/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 179960 KB
+Fuse CPU Usage: 296 ms
+Compiling module PC_change
+Compiling module IM
+Compiling module Controller
+Compiling module grf
+Compiling module ALU
+Compiling module DM
+Compiling module mips
+Compiling module a
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 2 sub-compilation(s) to finish...
+Compiled 9 Verilog Units
+Built simulation executable F:/verilog/P4_CPU_Single/a_isim_beh.exe
+Fuse Memory Usage: 186460 KB
+Fuse CPU Usage: 467 ms

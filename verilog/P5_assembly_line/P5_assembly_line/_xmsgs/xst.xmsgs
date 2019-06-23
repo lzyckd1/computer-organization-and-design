@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="31" delta="old" >"F:\verilog\P5_assembly_line\mips.v" Line 30: &lt;<arg fmt="%s" index="1">PC4_W</arg>&gt; is already declared.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="770" delta="old" >"F:\verilog\P5_assembly_line\mips.v" Line 30: Second declaration of <arg fmt="%s" index="1">PC4_W</arg> ignored
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1511" delta="old" >"F:\verilog\P5_assembly_line\PC.v" Line 28: Mix of blocking and non-blocking assignments to variable &lt;<arg fmt="%s" index="1">pc</arg>&gt; is not a recommended coding practice.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="old" >"F:\verilog\P5_assembly_line\PC.v" Line 21: Empty module &lt;<arg fmt="%s" index="1">PC</arg>&gt; remains a black box.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"F:\verilog\P5_assembly_line\IM.v" Line 32: Signal &lt;<arg fmt="%s" index="1">a</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1511" delta="old" >"F:\verilog\P5_assembly_line\reg_IF_ID.v" Line 29: Mix of blocking and non-blocking assignments to variable &lt;<arg fmt="%s" index="1">pc</arg>&gt; is not a recommended coding practice.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="old" >"F:\verilog\P5_assembly_line\reg_IF_ID.v" Line 21: Empty module &lt;<arg fmt="%s" index="1">reg_IF_ID</arg>&gt; remains a black box.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\verilog\P5_assembly_line\recode_ID.v" Line 157: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\verilog\P5_assembly_line\recode_ID.v" Line 169: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"F:\verilog\P5_assembly_line\mips.v" Line 57: Assignment to <arg fmt="%s" index="1">alu_in2_chose</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1511" delta="old" >"F:\verilog\P5_assembly_line\reg_EX_MEM.v" Line 47: Mix of blocking and non-blocking assignments to variable &lt;<arg fmt="%s" index="1">l</arg>&gt; is not a recommended coding practice.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="old" >"F:\verilog\P5_assembly_line\reg_EX_MEM.v" Line 21: Empty module &lt;<arg fmt="%s" index="1">reg_EX_MEM</arg>&gt; remains a black box.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1511" delta="old" >"F:\verilog\P5_assembly_line\DM.v" Line 32: Mix of blocking and non-blocking assignments to variable &lt;<arg fmt="%s" index="1">count</arg>&gt; is not a recommended coding practice.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="old" >"F:\verilog\P5_assembly_line\DM.v" Line 21: Empty module &lt;<arg fmt="%s" index="1">DM</arg>&gt; remains a black box.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\verilog\P5_assembly_line\mips.v" Line 65: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">out</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">1</arg>-bit.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1511" delta="old" >"F:\verilog\P5_assembly_line\reg_MEM_WB.v" Line 50: Mix of blocking and non-blocking assignments to variable &lt;<arg fmt="%s" index="1">l</arg>&gt; is not a recommended coding practice.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="old" >"F:\verilog\P5_assembly_line\reg_MEM_WB.v" Line 21: Empty module &lt;<arg fmt="%s" index="1">reg_MEM_WB</arg>&gt; remains a black box.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"F:\verilog\P5_assembly_line\mips.v" Line 67: Assignment to <arg fmt="%s" index="1">AO_W</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\verilog\P5_assembly_line\mips.v" Line 67: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">DM_M</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">1</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\verilog\P5_assembly_line\mips.v" Line 70: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">rd_MEM_WB</arg>&gt;. Formal port size is <arg fmt="%d" index="2">6</arg>-bit while actual signal size is <arg fmt="%d" index="1">5</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"F:\verilog\P5_assembly_line\mips.v" Line 70: Assignment to <arg fmt="%s" index="1">forwarda</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\verilog\P5_assembly_line\mips.v" Line 72: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"F:\verilog\P5_assembly_line\mips.v" Line 29: Net &lt;<arg fmt="%s" index="1">cmp_i1[31]</arg>&gt; does not have a driver.
+</msg>
+
+</messages>
+

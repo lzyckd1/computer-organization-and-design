@@ -1,0 +1,382 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Reading design: code.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "code.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "code"
+Output Format                      : NGC
+Target Device                      : xc6slx150-2-fgg676
+
+---- Source Options
+Top Module Name                    : code
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "F:\verilog\count\code.v" into library work
+Parsing module <code>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <code>.
+ERROR:HDLCompiler:1401 - "F:\verilog\count\code.v" Line 39: Signal o1[63] in unit code is connected to following multiple drivers:
+Driver 0: output signal o1[63] of instance Flip-flop (o1).
+Driver 1: output signal o1[63] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[62] of instance Flip-flop (o1).
+Driver 1: output signal o1[62] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[61] of instance Flip-flop (o1).
+Driver 1: output signal o1[61] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[60] of instance Flip-flop (o1).
+Driver 1: output signal o1[60] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[59] of instance Flip-flop (o1).
+Driver 1: output signal o1[59] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[58] of instance Flip-flop (o1).
+Driver 1: output signal o1[58] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[57] of instance Flip-flop (o1).
+Driver 1: output signal o1[57] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[56] of instance Flip-flop (o1).
+Driver 1: output signal o1[56] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[55] of instance Flip-flop (o1).
+Driver 1: output signal o1[55] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[54] of instance Flip-flop (o1).
+Driver 1: output signal o1[54] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[53] of instance Flip-flop (o1).
+Driver 1: output signal o1[53] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[52] of instance Flip-flop (o1).
+Driver 1: output signal o1[52] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[51] of instance Flip-flop (o1).
+Driver 1: output signal o1[51] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[50] of instance Flip-flop (o1).
+Driver 1: output signal o1[50] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[49] of instance Flip-flop (o1).
+Driver 1: output signal o1[49] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[48] of instance Flip-flop (o1).
+Driver 1: output signal o1[48] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[47] of instance Flip-flop (o1).
+Driver 1: output signal o1[47] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[46] of instance Flip-flop (o1).
+Driver 1: output signal o1[46] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[45] of instance Flip-flop (o1).
+Driver 1: output signal o1[45] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[44] of instance Flip-flop (o1).
+Driver 1: output signal o1[44] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[43] of instance Flip-flop (o1).
+Driver 1: output signal o1[43] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[42] of instance Flip-flop (o1).
+Driver 1: output signal o1[42] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[41] of instance Flip-flop (o1).
+Driver 1: output signal o1[41] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[40] of instance Flip-flop (o1).
+Driver 1: output signal o1[40] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[39] of instance Flip-flop (o1).
+Driver 1: output signal o1[39] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[38] of instance Flip-flop (o1).
+Driver 1: output signal o1[38] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[37] of instance Flip-flop (o1).
+Driver 1: output signal o1[37] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[36] of instance Flip-flop (o1).
+Driver 1: output signal o1[36] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[35] of instance Flip-flop (o1).
+Driver 1: output signal o1[35] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[34] of instance Flip-flop (o1).
+Driver 1: output signal o1[34] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[33] of instance Flip-flop (o1).
+Driver 1: output signal o1[33] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[32] of instance Flip-flop (o1).
+Driver 1: output signal o1[32] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[31] of instance Flip-flop (o1).
+Driver 1: output signal o1[31] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[30] of instance Flip-flop (o1).
+Driver 1: output signal o1[30] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[29] of instance Flip-flop (o1).
+Driver 1: output signal o1[29] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[28] of instance Flip-flop (o1).
+Driver 1: output signal o1[28] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[27] of instance Flip-flop (o1).
+Driver 1: output signal o1[27] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[26] of instance Flip-flop (o1).
+Driver 1: output signal o1[26] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[25] of instance Flip-flop (o1).
+Driver 1: output signal o1[25] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[24] of instance Flip-flop (o1).
+Driver 1: output signal o1[24] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[23] of instance Flip-flop (o1).
+Driver 1: output signal o1[23] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[22] of instance Flip-flop (o1).
+Driver 1: output signal o1[22] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[21] of instance Flip-flop (o1).
+Driver 1: output signal o1[21] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[20] of instance Flip-flop (o1).
+Driver 1: output signal o1[20] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[19] of instance Flip-flop (o1).
+Driver 1: output signal o1[19] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[18] of instance Flip-flop (o1).
+Driver 1: output signal o1[18] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[17] of instance Flip-flop (o1).
+Driver 1: output signal o1[17] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[16] of instance Flip-flop (o1).
+Driver 1: output signal o1[16] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[15] of instance Flip-flop (o1).
+Driver 1: output signal o1[15] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[14] of instance Flip-flop (o1).
+Driver 1: output signal o1[14] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[13] of instance Flip-flop (o1).
+Driver 1: output signal o1[13] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[12] of instance Flip-flop (o1).
+Driver 1: output signal o1[12] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[11] of instance Flip-flop (o1).
+Driver 1: output signal o1[11] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[10] of instance Flip-flop (o1).
+Driver 1: output signal o1[10] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[9] of instance Flip-flop (o1).
+Driver 1: output signal o1[9] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[8] of instance Flip-flop (o1).
+Driver 1: output signal o1[8] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[7] of instance Flip-flop (o1).
+Driver 1: output signal o1[7] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[6] of instance Flip-flop (o1).
+Driver 1: output signal o1[6] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[5] of instance Flip-flop (o1).
+Driver 1: output signal o1[5] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[4] of instance Flip-flop (o1).
+Driver 1: output signal o1[4] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[3] of instance Flip-flop (o1).
+Driver 1: output signal o1[3] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[2] of instance Flip-flop (o1).
+Driver 1: output signal o1[2] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[1] of instance Flip-flop (o1).
+Driver 1: output signal o1[1] of instance Flip-flop (_i000021).
+Driver 0: output signal o1[0] of instance Flip-flop (o1).
+Driver 1: output signal o1[0] of instance Flip-flop (_i000021).
+Driver 0: output signal o2[63] of instance Flip-flop (o2).
+Driver 1: output signal o2[63] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[62] of instance Flip-flop (o2).
+Driver 1: output signal o2[62] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[61] of instance Flip-flop (o2).
+Driver 1: output signal o2[61] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[60] of instance Flip-flop (o2).
+Driver 1: output signal o2[60] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[59] of instance Flip-flop (o2).
+Driver 1: output signal o2[59] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[58] of instance Flip-flop (o2).
+Driver 1: output signal o2[58] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[57] of instance Flip-flop (o2).
+Driver 1: output signal o2[57] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[56] of instance Flip-flop (o2).
+Driver 1: output signal o2[56] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[55] of instance Flip-flop (o2).
+Driver 1: output signal o2[55] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[54] of instance Flip-flop (o2).
+Driver 1: output signal o2[54] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[53] of instance Flip-flop (o2).
+Driver 1: output signal o2[53] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[52] of instance Flip-flop (o2).
+Driver 1: output signal o2[52] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[51] of instance Flip-flop (o2).
+Driver 1: output signal o2[51] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[50] of instance Flip-flop (o2).
+Driver 1: output signal o2[50] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[49] of instance Flip-flop (o2).
+Driver 1: output signal o2[49] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[48] of instance Flip-flop (o2).
+Driver 1: output signal o2[48] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[47] of instance Flip-flop (o2).
+Driver 1: output signal o2[47] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[46] of instance Flip-flop (o2).
+Driver 1: output signal o2[46] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[45] of instance Flip-flop (o2).
+Driver 1: output signal o2[45] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[44] of instance Flip-flop (o2).
+Driver 1: output signal o2[44] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[43] of instance Flip-flop (o2).
+Driver 1: output signal o2[43] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[42] of instance Flip-flop (o2).
+Driver 1: output signal o2[42] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[41] of instance Flip-flop (o2).
+Driver 1: output signal o2[41] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[40] of instance Flip-flop (o2).
+Driver 1: output signal o2[40] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[39] of instance Flip-flop (o2).
+Driver 1: output signal o2[39] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[38] of instance Flip-flop (o2).
+Driver 1: output signal o2[38] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[37] of instance Flip-flop (o2).
+Driver 1: output signal o2[37] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[36] of instance Flip-flop (o2).
+Driver 1: output signal o2[36] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[35] of instance Flip-flop (o2).
+Driver 1: output signal o2[35] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[34] of instance Flip-flop (o2).
+Driver 1: output signal o2[34] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[33] of instance Flip-flop (o2).
+Driver 1: output signal o2[33] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[32] of instance Flip-flop (o2).
+Driver 1: output signal o2[32] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[31] of instance Flip-flop (o2).
+Driver 1: output signal o2[31] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[30] of instance Flip-flop (o2).
+Driver 1: output signal o2[30] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[29] of instance Flip-flop (o2).
+Driver 1: output signal o2[29] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[28] of instance Flip-flop (o2).
+Driver 1: output signal o2[28] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[27] of instance Flip-flop (o2).
+Driver 1: output signal o2[27] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[26] of instance Flip-flop (o2).
+Driver 1: output signal o2[26] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[25] of instance Flip-flop (o2).
+Driver 1: output signal o2[25] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[24] of instance Flip-flop (o2).
+Driver 1: output signal o2[24] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[23] of instance Flip-flop (o2).
+Driver 1: output signal o2[23] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[22] of instance Flip-flop (o2).
+Driver 1: output signal o2[22] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[21] of instance Flip-flop (o2).
+Driver 1: output signal o2[21] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[20] of instance Flip-flop (o2).
+Driver 1: output signal o2[20] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[19] of instance Flip-flop (o2).
+Driver 1: output signal o2[19] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[18] of instance Flip-flop (o2).
+Driver 1: output signal o2[18] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[17] of instance Flip-flop (o2).
+Driver 1: output signal o2[17] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[16] of instance Flip-flop (o2).
+Driver 1: output signal o2[16] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[15] of instance Flip-flop (o2).
+Driver 1: output signal o2[15] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[14] of instance Flip-flop (o2).
+Driver 1: output signal o2[14] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[13] of instance Flip-flop (o2).
+Driver 1: output signal o2[13] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[12] of instance Flip-flop (o2).
+Driver 1: output signal o2[12] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[11] of instance Flip-flop (o2).
+Driver 1: output signal o2[11] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[10] of instance Flip-flop (o2).
+Driver 1: output signal o2[10] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[9] of instance Flip-flop (o2).
+Driver 1: output signal o2[9] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[8] of instance Flip-flop (o2).
+Driver 1: output signal o2[8] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[7] of instance Flip-flop (o2).
+Driver 1: output signal o2[7] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[6] of instance Flip-flop (o2).
+Driver 1: output signal o2[6] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[5] of instance Flip-flop (o2).
+Driver 1: output signal o2[5] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[4] of instance Flip-flop (o2).
+Driver 1: output signal o2[4] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[3] of instance Flip-flop (o2).
+Driver 1: output signal o2[3] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[2] of instance Flip-flop (o2).
+Driver 1: output signal o2[2] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[1] of instance Flip-flop (o2).
+Driver 1: output signal o2[1] of instance Flip-flop (_i000023).
+Driver 0: output signal o2[0] of instance Flip-flop (o2).
+Driver 1: output signal o2[0] of instance Flip-flop (_i000023).
+Module code remains a blackbox, due to errors in its contents
+WARNING:HDLCompiler:1499 - "F:\verilog\count\code.v" Line 21: Empty module <code> remains a black box.
+--> 
+
+Total memory usage is 230784 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

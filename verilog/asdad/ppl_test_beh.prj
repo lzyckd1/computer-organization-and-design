@@ -1,0 +1,3 @@
+verilog work "pipeline.v"
+verilog work "ppl_test.v"
+verilog work "D:/xlinux/14.7/ISE_DS/ISE//verilog/src/glbl.v"

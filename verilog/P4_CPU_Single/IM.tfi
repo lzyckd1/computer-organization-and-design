@@ -1,0 +1,12 @@
+
+
+
+// Instantiate the module
+IM instance_name (
+    .clk(clk), 
+    .clr(clr), 
+    .address(address), 
+    .out(out)
+    );
+
+

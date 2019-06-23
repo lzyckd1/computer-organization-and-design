@@ -1,0 +1,63 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "F:/verilog/P5_assembly_line/P5_assembly_line/test_isim_beh.exe" -prj "F:/verilog/P5_assembly_line/P5_assembly_line/test_beh.prj" "work.test" "work.glbl" 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "F:/verilog/P5_assembly_line/P5_assembly_line/stall.v" into library work
+Analyzing Verilog file "F:/verilog/P5_assembly_line/P5_assembly_line/reg_MEM_WB.v" into library work
+Analyzing Verilog file "F:/verilog/P5_assembly_line/P5_assembly_line/reg_IF_ID.v" into library work
+Analyzing Verilog file "F:/verilog/P5_assembly_line/P5_assembly_line/reg_ID_EX.v" into library work
+Analyzing Verilog file "F:/verilog/P5_assembly_line/P5_assembly_line/reg_EX_MEM.v" into library work
+Analyzing Verilog file "F:/verilog/P5_assembly_line/P5_assembly_line/recode_WB.v" into library work
+Analyzing Verilog file "F:/verilog/P5_assembly_line/P5_assembly_line/recode_MEM.v" into library work
+Analyzing Verilog file "F:/verilog/P5_assembly_line/P5_assembly_line/recode_ID.v" into library work
+Analyzing Verilog file "F:/verilog/P5_assembly_line/P5_assembly_line/recode_EX.v" into library work
+Analyzing Verilog file "F:/verilog/P5_assembly_line/P5_assembly_line/PC.v" into library work
+Analyzing Verilog file "F:/verilog/P5_assembly_line/P5_assembly_line/NPC.v" into library work
+Analyzing Verilog file "F:/verilog/P5_assembly_line/P5_assembly_line/IM.v" into library work
+Analyzing Verilog file "F:/verilog/P5_assembly_line/P5_assembly_line/GRF.v" into library work
+Analyzing Verilog file "F:/verilog/P5_assembly_line/P5_assembly_line/forward.v" into library work
+Analyzing Verilog file "F:/verilog/P5_assembly_line/P5_assembly_line/EXT.v" into library work
+Analyzing Verilog file "F:/verilog/P5_assembly_line/P5_assembly_line/DM.v" into library work
+Analyzing Verilog file "F:/verilog/P5_assembly_line/P5_assembly_line/CMP.v" into library work
+Analyzing Verilog file "F:/verilog/P5_assembly_line/P5_assembly_line/ALU.v" into library work
+Analyzing Verilog file "F:/verilog/P5_assembly_line/P5_assembly_line/ADD4.v" into library work
+Analyzing Verilog file "F:/verilog/P5_assembly_line/P5_assembly_line/mips.v" into library work
+WARNING:HDLCompiler:31 - "F:/verilog/P5_assembly_line/P5_assembly_line/mips.v" Line 30: <PC4_W> is already declared.
+WARNING:HDLCompiler:770 - "F:/verilog/P5_assembly_line/P5_assembly_line/mips.v" Line 30: Second declaration of PC4_W ignored
+Analyzing Verilog file "F:/verilog/P5_assembly_line/P5_assembly_line/test.v" into library work
+Analyzing Verilog file "D:/xlinux/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "F:/verilog/P5_assembly_line/P5_assembly_line/mips.v" Line 46: Port next is not connected to this instance
+WARNING:HDLCompiler:189 - "F:/verilog/P5_assembly_line/P5_assembly_line/mips.v" Line 63: Size mismatch in connection of port <rt_ID_EX>. Formal port size is 5-bit while actual signal size is 1-bit.
+Completed static elaboration
+Fuse Memory Usage: 179960 KB
+Fuse CPU Usage: 405 ms
+Compiling module PC
+Compiling module ADD4
+Compiling module IM
+Compiling module reg_IF_ID
+Compiling module recode_ID
+Compiling module GRF
+Compiling module EXT
+Compiling module CMP
+Compiling module NPC
+Compiling module reg_ID_EX
+Compiling module recode_EX
+Compiling module ALU
+Compiling module reg_EX_MEM
+Compiling module recode_MEM
+Compiling module DM
+Compiling module reg_MEM_WB
+Compiling module recode_WB
+Compiling module stall
+Compiling module forward
+Compiling module mips
+Compiling module test
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 15 sub-compilation(s) to finish...
+Compiled 22 Verilog Units
+Built simulation executable F:/verilog/P5_assembly_line/P5_assembly_line/test_isim_beh.exe
+Fuse Memory Usage: 187320 KB
+Fuse CPU Usage: 624 ms

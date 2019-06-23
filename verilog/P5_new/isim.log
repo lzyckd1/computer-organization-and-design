@@ -1,0 +1,110 @@
+ISim log file
+Running: F:\verilog\P5_new\test1_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb F:/verilog/P5_new/test1_isim_beh.wdb 
+ISim P.20131013 (signature 0x8ef4fb42)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING: File "F:/verilog/P5_new/mips.v" Line 77.  For instance uut/c5/, width 5 of formal port addr is not equal to width 1 of actual signal t1.
+WARNING: File "F:/verilog/P5_new/mips.v" Line 29.  For instance uut/forward1/, width 1 of formal port Tuse_EX is not equal to width 2 of actual signal Tuse_EX.
+WARNING: File "F:/verilog/P5_new/mips.v" Line 29.  For instance uut/forward1/, width 1 of formal port Tnew_MEM is not equal to width 2 of actual signal Tnew_MEM.
+WARNING: File "F:/verilog/P5_new/mips.v" Line 29.  For instance uut/forward1/, width 1 of formal port Tnew_WB is not equal to width 2 of actual signal Tnew_WB.
+WARNING: File "F:/verilog/P5_new/mips.v" Line 29.  For instance uut/forward2/, width 1 of formal port Tuse_EX is not equal to width 2 of actual signal Tuse_EX.
+WARNING: File "F:/verilog/P5_new/mips.v" Line 29.  For instance uut/forward2/, width 1 of formal port Tnew_MEM is not equal to width 2 of actual signal Tnew_MEM.
+WARNING: File "F:/verilog/P5_new/mips.v" Line 29.  For instance uut/forward2/, width 1 of formal port Tnew_WB is not equal to width 2 of actual signal Tnew_WB.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+         5@00003000: $16 <= 00000000
+         6@00003004: $16 <= 00000000
+         7@00003008: $ 3 <= 00000000
+         8@0000300c: $21 <= 00001651
+         9@00003010: $16 <= 0000432e
+        10@00003014: $23 <= 00004058
+        11@00003018: $11 <= 0000432e
+        13@00003020: $15 <= 000047af
+        14@00003024: $18 <= 00006865
+        15@00003028: $21 <= 0000795b
+        16@0000302c: $ 5 <= 00000000
+        18@00003034: $20 <= 00006fff
+        19@00003038: $12 <= 00000000
+        20@0000303c: $14 <= 00000000
+        23@00003048: $25 <= 000048c8
+        24@0000304c: $ 1 <= ffffbcd2
+        25@00003050: $10 <= 00000000
+        26@00003054: $12 <= 00000801
+        27@00003058: $25 <= 00000000
+        28@0000305c: $30 <= 0000795b
+        29@00003060: $11 <= 0000765e
+        30@00003064: $13 <= 00006fed
+        31@00003068: $18 <= 00000000
+        32@0000306c: $12 <= 00000000
+        33@00003070: $11 <= 00005fef
+        34@00003074: $16 <= 0000432e
+        35@00003078: $29 <= 00000000
+        36@0000307c: $ 4 <= 00006fff
+        37@00003080: $25 <= 00002bb7
+        38@00003084: $21 <= ffff9013
+        39@00003088: $19 <= 74a20000
+        40@0000308c: $20 <= 00000000
+        41@00003090: $ 8 <= 000073fe
+        42@00003094: $19 <= 0000432e
+        43@00003098: $31 <= 00005fef
+        44@0000309c: $13 <= 0000447b
+        45@000030a0: $ 7 <= 00006fed
+        46@000030a4: $18 <= 00007fff
+        47@000030a8: $14 <= 000077ff
+        48@000030ac: $24 <= 00000000
+        49@000030b0: $19 <= 000077ff
+        50@000030b4: $13 <= 00008807
+        51@000030b8: $22 <= 00003e84
+        52@000030bc: $ 9 <= ffff8001
+        53@000030c0: $ 4 <= ffff9013
+        54@000030c4: $ 1 <= 00003e84
+        55@000030c8: $24 <= ffff0c03
+        56@000030cc: $29 <= 000077ff
+        57@000030d0: $29 <= 00000000
+        58@000030d4: $ 7 <= 0000397b
+        59@000030d8: $ 4 <= 00007fff
+        60@000030dc: $ 9 <= 000073fe
+        61@000030e0: $16 <= 00001f97
+        63@000030e8: $ 6 <= 0000181a
+        64@000030ec: $ 9 <= 000077ff
+        65@000030f0: $10 <= 00007fff
+        66@000030f4: $30 <= 0000ebfd
+        67@000030f8: $19 <= 00007bff
+        68@000030fc: $ 6 <= ffff8c02
+        69@00003100: $10 <= 00001409
+        70@00003104: $12 <= 00002777
+        71@00003108: $25 <= 00001012
+        72@0000310c: $27 <= 0000b456
+        73@00003110: $22 <= 00005ff5
+        74@00003114: $23 <= 000003f7
+        75@00003118: $21 <= 00003450
+        76@0000311c: $14 <= 00007bff
+        77@00003120: $15 <= 000037ff
+        78@00003124: $17 <= 00017c04
+        79@00003128: $22 <= 00005fef
+        80@0000312c: $20 <= 00006090
+        81@00003130: $12 <= fffeac14
+        82@00003134: $27 <= 00004c08
+        83@00003138: $24 <= 000007f7
+        84@0000313c: $ 4 <= 0001b403
+        85@00003140: $ 5 <= 000047af
+        86@00003144: $23 <= 00009b96
+        87@00003148: $11 <= 0000dbdf
+        89@00003150: $ 8 <= 0000ffdf
+        90@00003154: $15 <= 00007fff
+        91@00003158: $19 <= 0000ebf1
+        92@0000315c: $16 <= 0000ffdf
+        93@00003160: $24 <= 0002040b
+        94@00003164: $29 <= 0000f3fe
+        95@00003168: $20 <= 0000cfe6
+        96@0000316c: $21 <= 00007c71
+        97@00003170: $22 <= ffff8410
+        98@00003174: $14 <= 00007fff
+        99@00003178: $ 9 <= 00005be0
+       100@0000317c: $ 7 <= 0000fc05

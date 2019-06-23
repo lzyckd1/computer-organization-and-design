@@ -1,0 +1,22 @@
+Running: D:\xlinux\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o F:/verilog/ceshi/test_isim_beh.exe -prj F:/verilog/ceshi/test_beh.prj work.test work.glbl 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "F:/verilog/ceshi/ceshi1.v" into library work
+WARNING:HDLCompiler:568 - "F:/verilog/ceshi/ceshi1.v" Line 29: Constant value is truncated to fit in <6> bits.
+Analyzing Verilog file "F:/verilog/ceshi/test.v" into library work
+Analyzing Verilog file "D:/xlinux/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 180024 KB
+Fuse CPU Usage: 296 ms
+Compiling module ceshi1
+Compiling module test
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 3 Verilog Units
+Built simulation executable F:/verilog/ceshi/test_isim_beh.exe
+Fuse Memory Usage: 186524 KB
+Fuse CPU Usage: 312 ms

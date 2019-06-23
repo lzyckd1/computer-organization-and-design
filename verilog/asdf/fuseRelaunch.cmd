@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "F:/verilog/asdf/id_fsm_isim_beh.exe" -prj "F:/verilog/asdf/id_fsm_beh.prj" "work.id_fsm" "work.glbl" 

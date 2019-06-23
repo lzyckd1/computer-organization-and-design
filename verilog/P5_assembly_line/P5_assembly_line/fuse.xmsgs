@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="31" delta="unknown" >"F:/verilog/P5_assembly_line/P5_assembly_line/mips.v" Line 30: &lt;<arg fmt="%s" index="1">PC4_W</arg>&gt; is already declared.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="770" delta="unknown" >"F:/verilog/P5_assembly_line/P5_assembly_line/mips.v" Line 30: Second declaration of <arg fmt="%s" index="1">PC4_W</arg> ignored
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"F:/verilog/P5_assembly_line/P5_assembly_line/mips.v" Line 46: Port <arg fmt="%s" index="1">next</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"F:/verilog/P5_assembly_line/P5_assembly_line/mips.v" Line 63: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">rt_ID_EX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">5</arg>-bit while actual signal size is <arg fmt="%d" index="1">1</arg>-bit.
+</msg>
+
+</messages>
+

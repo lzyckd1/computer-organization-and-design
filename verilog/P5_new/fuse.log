@@ -1,0 +1,66 @@
+Running: D:\xlinux\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o F:/verilog/P5_new/test1_isim_beh.exe -prj F:/verilog/P5_new/test1_beh.prj work.test1 work.glbl 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "F:/verilog/P5_new/stall.v" into library work
+Analyzing Verilog file "F:/verilog/P5_new/REG_IF_ID.v" into library work
+Analyzing Verilog file "F:/verilog/P5_new/REG_ID_EX.v" into library work
+Analyzing Verilog file "F:/verilog/P5_new/REG_EX_MEM.v" into library work
+Analyzing Verilog file "F:/verilog/P5_new/RDG_MEM_WB.v" into library work
+Analyzing Verilog file "F:/verilog/P5_new/PC.v" into library work
+Analyzing Verilog file "F:/verilog/P5_new/NPC.v" into library work
+Analyzing Verilog file "F:/verilog/P5_new/IM.v" into library work
+Analyzing Verilog file "F:/verilog/P5_new/GRF.v" into library work
+Analyzing Verilog file "F:/verilog/P5_new/forward.v" into library work
+Analyzing Verilog file "F:/verilog/P5_new/EXT.v" into library work
+Analyzing Verilog file "F:/verilog/P5_new/DM.v" into library work
+Analyzing Verilog file "F:/verilog/P5_new/control4.v" into library work
+Analyzing Verilog file "F:/verilog/P5_new/control3.v" into library work
+Analyzing Verilog file "F:/verilog/P5_new/control2.v" into library work
+Analyzing Verilog file "F:/verilog/P5_new/control1.v" into library work
+Analyzing Verilog file "F:/verilog/P5_new/control0.v" into library work
+Analyzing Verilog file "F:/verilog/P5_new/CMP.v" into library work
+Analyzing Verilog file "F:/verilog/P5_new/ALU.v" into library work
+Analyzing Verilog file "F:/verilog/P5_new/ADD4.v" into library work
+Analyzing Verilog file "F:/verilog/P5_new/mips.v" into library work
+WARNING:HDLCompiler:35 - "F:/verilog/P5_new/mips.v" Line 75: <pc_WB> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "F:/verilog/P5_new/mips.v" Line 92: <stop> is already implicitly declared earlier.
+Analyzing Verilog file "F:/verilog/P5_new/test1.v" into library work
+Analyzing Verilog file "D:/xlinux/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "F:/verilog/P5_new/mips.v" Line 97: Size mismatch in connection of port <Tuse_EX>. Formal port size is 1-bit while actual signal size is 2-bit.
+WARNING:HDLCompiler:189 - "F:/verilog/P5_new/mips.v" Line 77: Size mismatch in connection of port <addr>. Formal port size is 5-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "F:/verilog/P5_new/mips.v" Line 96: Size mismatch in connection of port <Tuse_EX>. Formal port size is 1-bit while actual signal size is 2-bit.
+Completed static elaboration
+Fuse Memory Usage: 180280 KB
+Fuse CPU Usage: 312 ms
+Compiling module PC
+Compiling module IM
+Compiling module control0
+Compiling module REG_IF_ID
+Compiling module ADD4
+Compiling module control1
+Compiling module GRF
+Compiling module EXT
+Compiling module CMP
+Compiling module NPC
+Compiling module REG_ID_EX
+Compiling module control2
+Compiling module ALU
+Compiling module REG_EX_MEM
+Compiling module control3
+Compiling module control4
+Compiling module DM
+Compiling module RDG_MEM_WB
+Compiling module stall
+Compiling module forward
+Compiling module mips
+Compiling module test1
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 16 sub-compilation(s) to finish...
+Compiled 23 Verilog Units
+Built simulation executable F:/verilog/P5_new/test1_isim_beh.exe
+Fuse Memory Usage: 187804 KB
+Fuse CPU Usage: 577 ms
